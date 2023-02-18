@@ -24,6 +24,7 @@ body {
     grid-column: 1 / 4;
     border: 1px solid var(--secondary);
     color: var(--primary);
+    background-color: var(--header);
 }
 
 .side-nav {

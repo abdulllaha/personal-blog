@@ -1,6 +1,7 @@
 :root {
     /*  theme */
-    --background: #444444; 
+    --background: #444444;
+    --header: #000000; 
     --primary: #aa123d;
     --secondary: #ff6c96;   
 }
