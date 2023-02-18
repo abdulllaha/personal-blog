@@ -4,34 +4,33 @@ body {
     margin: 0px;
     height: 1070px;
     width: 1910px;
+    background-color: var(--background);
 }
 .container {
     display: grid;
     grid-auto-rows: minmax(10px, auto);
     grid-auto-columns: repeat(3, 1fr);
     gap: 20px;
-    background-color: #444;
     width:100%;
     height: 100%;
-    padding: 0px;
 }
 .header {
     grid-row: 1;
     grid-column: 1 / 4;
-    border: 1px solid darkred;
-    color: white;
+    border: 1px solid var(--secondary);
+    color: var(--primary);
 }
 
 .side-nav {
     grid-row: 2 / 5;
     grid-column: 1;
-    border: 1px solid cyan;
-    color: white;
+    border: 1px solid var(--secondary);
+    color: var(--primary);
 }
 
 .content {
     grid-row: 2 / 5;
     grid-column: 2 / 4;
-    border: 1px solid lightblue;
-    color: white;
+    border: 1px solid var(--secondary);
+    color: var(--primary);
 }
