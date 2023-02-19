@@ -1,7 +1,8 @@
 :root {
     /*  theme */
     --background: #444444;
-    --header: #000000; 
     --primary: #aa123d;
-    --secondary: #ff6c96;   
+    --secondary: #ff6c96;
+    --font-color: white;
+    --posts-bg: #000000;
 }
