@@ -5,4 +5,7 @@
     --secondary: #ff6c96;
     --font-color: white;
     --posts-bg: #000000;
+
+    /* images*/
+    --test-img: url('../assets/images/test.png');
 }
