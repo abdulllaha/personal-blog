@@ -2,12 +2,7 @@
 @import url(style.css);
 
 
-#costume-sub-container {
-    height: 70%;
-    padding: 2%;
-    /* margin-bottom: 1%; */
-    min-height: 0px;
-}
+
 .back-icon {
     cursor: pointer;
     scale: 0.9;
@@ -20,7 +15,6 @@
     transition: 0.25s;
 }
 .post-details {
-    height: 100%;
     width: 30%;
     display: flex;
     flex-flow: row nowrap;
@@ -34,7 +28,6 @@
 .post-img {
     border-radius: 0;
     margin: 5% 0px 5% 0px;
-    width: 350px;
 }
 .info-table {
     height: 100%;
@@ -47,7 +40,7 @@
     grid-area: main;
 }
 .divider {
-    height: 100%;
-    width: 10px;
+    height: auto;
+    width: 1px;
     background-color: var(--primary);
 }
