@@ -1,0 +1,53 @@
+@import url(declarations.css);
+@import url(style.css);
+
+
+#costume-sub-container {
+    height: 70%;
+    padding: 2%;
+    /* margin-bottom: 1%; */
+    min-height: 0px;
+}
+.back-icon {
+    cursor: pointer;
+    scale: 0.9;
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+}
+.back-icon:hover {
+    scale: 1.2;
+    transition-timing-function: ease-in;
+    transition: 0.25s;
+}
+.post-details {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 10px;
+}
+.general-info {
+    height: 100%;
+    border: 1px solid var(--primary);
+    padding: 2%;
+}
+.post-img {
+    border-radius: 0;
+    margin: 5% 0px 5% 0px;
+    width: 350px;
+}
+.info-table {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border: 1px solid var(--primary);
+}
+.main{
+    grid-area: main;
+}
+.divider {
+    height: 100%;
+    width: 10px;
+    background-color: var(--primary);
+}
