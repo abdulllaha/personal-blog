@@ -5,16 +5,54 @@
     <meta charset="UTF-8" />
     <title>Personal Blog</title>
     <meta name="descirption" content="personal blog project for audacitycourse" />
-    <link href="../styles/style.css" rel="stylesheet" />
+    <link href="../styles/post-details.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="container">
-        <div class="sub-container" id="header">
+        <nav class="sub-container" id="header">
             <heading>
-                <h1 class="title">personal blog</h1>
+                <h1 class="uppercase font-color">personal blog</h1>
             </heading>
+            <a href="./index.html">
+                <img class="back-icon" src="../assets/images/back.svg" alt=" &nbsp; back button" />
+            </a>
+        </nav>
+        <div class="sub-container" id="costume-sub-container">
+            <heading>
+                <h1 class="uppercase font-color">post detailes</h1>
+            </heading>
+            <div class="post-details">
+                <div class="general-info black-bg">
+                    <h2 class="primary-font-color uppercase">general info</h2>
+                    <section>
+                        <!-- <article class="font-color"> -->
+                            <img class="post-img" alt="darth vader" src="../assets/images/darth-vader.jpg" />
+                        <!-- </article> -->
+                    </section>
+                    <section>
+                        <article>
+                            <h3 class="uppercase primary-font-color">darth vader</h3>
+                        </article>
+                    </section>
+                    <section class="font-color">
+                        <article class="info-table">
+                            <h4>gender</h4>
+                            <div class="divider"></div>
+                            <p>male</p>
+                        </article>
+                    </section>
+                </div>
+                <div class="detaileds-info">
+                    <h2>detailed info</h2>
+                </div>
+            </div>
         </div>
+        <footer class="sub-container" id="footer">
+            <heading>
+                <h1 class="uppercase font-color">Footer</h1>
+            </heading>
+        </footer>
     </div>
 </body>
 
