@@ -5,7 +5,9 @@
     --secondary: #ff6c96;
     --font-color: white;
     --posts-bg: #000000;
-    --post-bg-selected: #181818;
+    --post-bg-hover: #181818;
+    --ele-background: #32313195;
     /* images*/
     --back-icon: url('../assets/images/back.svg');
+    --logo: url('../assets/images/star-wars-logo.png');
 }
