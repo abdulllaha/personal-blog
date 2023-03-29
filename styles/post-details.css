@@ -1,9 +1,8 @@
-/* override*/
-#info {
-    background-color: #32313195;
-    padding: 1%;
-    border-radius: 5px;
-    font-weight: bold;
+.bio{
+    background-color: var(--info-section-background);
+    padding: 2%;
+    border-radius: 25px;
+    font-size: x-large;
 }
 #costume-sub-container {
     margin-bottom: 5%;
@@ -64,4 +63,18 @@
 .detailed-info {
     border-left: 1px solid black;
     padding: 0px 0px 0px 2%;
+}
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    .post-details {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        column-gap: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .post-details {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 10px;
+    }
 }

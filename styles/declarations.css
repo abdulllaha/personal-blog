@@ -1,12 +1,12 @@
 :root {
     /*  theme */
-    --background: #444444;
+    --background: #212121;
     --primary: #aa123d;
     --secondary: #ff6c96;
     --font-color: white;
     --posts-bg: #000000;
-    --post-bg-hover: #181818;
-    --ele-background: #32313195;
+    --post-bg-hover: #2c2a2a;
+    --info-section-background: #47454580;
     /* images*/
     --back-icon: url('../assets/images/back.svg');
     --logo: url('../assets/images/star-wars-logo.png');
